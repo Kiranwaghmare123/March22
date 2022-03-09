@@ -11,6 +11,7 @@ Features of Java:
 -----------------
 -Java is Simple
 	-Complexity of program is reduced.
+	
 -Java is Object Oriented
 	-OOP's concepts
 	-modularity
@@ -20,14 +21,23 @@ Features of Java:
 	-Abstraction
 	-Encapsulation
 	-Polymorphism
+	
 -Java is Distributed
+
 -Java is Interpreted
+
 -Java is platform independent
+
 -Java is Robust
+
 -Java is Secure
+
 -Java is Architectural Neutral
+
 -Java is Portable
+
 -Java is Multi-threaded
+
 -Java is Dynamic
 
 Class:
@@ -39,14 +49,17 @@ Class:
 	-block
 	-nested classe
 	-interface
--class is a group of objects,
-which have comon property
--template/blueprint from which 
-object can be created.
+	
+-class is a group of objects,which have comon property
+
+-template/blueprint from which object can be created.
 
 Object:
 --------
 -instance of a class
+
 -real-world entity
+
 -runtime entity
+
 -state & behaviour (instance of class)
