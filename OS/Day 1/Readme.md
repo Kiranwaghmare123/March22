@@ -14,6 +14,9 @@
 
 ## Architecture of UNIX Systems
 
+![image](https://user-images.githubusercontent.com/72081819/158053650-0a3e34b9-1ea7-4b68-b5da-4d7094efc022.png)
+
+
 ![Architecture of UNIX Systems](Diagrams/Screen_Shot_2017-06-05_at_4.39.07_PM.png)
 
 The operating systems interacts directly with the hardware, providing common services to programs and insulating them from hardware idiosyncrasies.
