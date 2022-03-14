@@ -26,6 +26,9 @@ Ques 1: Create directoy structure for following diagrams.
 
 ## 1.Your own family tree
 
+![image](https://user-images.githubusercontent.com/72081819/158146547-8cd43e8c-4b62-45b8-8be0-1530fa42fe83.png)
+
+
 ## 2. Kapoor Family tree
 
 ![image](https://user-images.githubusercontent.com/72081819/158145883-a57547d4-e962-4b37-b74b-e1008f160b47.png)
