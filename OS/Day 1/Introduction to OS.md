@@ -63,7 +63,7 @@ _Memory Management:_
 * user-level => applications [underprivileged mode]
 * kernel-level => OS Kernel [privileged access, hardware access]
 
-![userkernelprotectionboundary](images/userkernelprotectionboundary.png)
+![image](https://user-images.githubusercontent.com/72081819/158135301-82e2b79c-1c8f-4507-959f-3b57ca49a315.png)
 
 - User-Kernel switch is supported by hardware.
 	- using trap instructions
@@ -105,7 +105,8 @@ Protection | chmod(); umask(); chown();
 
 ## Linux Architecture 
 
-![linuxarchitecture](images/linuxarch.png)
+![image](https://user-images.githubusercontent.com/72081819/158135379-e995ae12-142d-4ede-9dd4-a18989a8e797.png)
+
 
 <hr>
 $10-worth New Year Gift for You
