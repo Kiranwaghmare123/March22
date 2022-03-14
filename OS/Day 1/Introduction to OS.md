@@ -1,4 +1,9 @@
-# Operating Systems Overview
+# Day 1: 14-03-2022
+======================
+Topics:
+	-Introduction to Opearating System
+	
+	-Introduction to Linux
 
 <hr>
 
@@ -58,6 +63,21 @@ _Memory Management:_
     - What will the user want to execute on that machine?
     - What are the workload requirements?
     
+ ## OS Applications: 
+----------------
+	-Embedded OS
+		eg:Contiki OS
+	-Mobile OS
+		eg:Android, iOS, Windows,...
+	-RTOS
+		eg: VxWorks, RTLinux,..
+	-Secure Environment
+		eg: SeLinux
+	-For Servers
+		eg:Redhat,Ubuntu, Windows Server,
+	-Desktops
+		eg: Windows, Linux, Mac OS
+		
 ## User/ Kernel Protection Boundary
 
 * user-level => applications [underprivileged mode]
@@ -102,6 +122,33 @@ Device Manipulation | ioctl(); read(); write();
 Information Maintenance | getpid(); alarm(); sleep();
 Communication | pipe(); shmget(); mmap();
 Protection | chmod(); umask(); chown();
+
+## Introduction to Linux:
+----------------------
+-Linus Torvalds : In 1991
+-open source
+-Variant of UNIX
+-fully-networked 32/64 bit( Unix OS)
+	-Unix Tools:  sed, awk , grep....
+	-Compiler: C, C++, Fortran, Cobol, Smalltalk,...
+	-Network Tools : telnet, ftp,ping,....
+-Multi-user, Multitasking,Multiprocessor
+-Has GUI like Windows system
+-Run files on multiple platforms
+-Linux is free - (edit ad view : source code of OS)
+-customizable
+-Stability
+-Security is structure
+-Highly portable
+
+## Distributions of Linux:
+-----------------------
+
+-UBuntu
+-Linux mint
+-Fedora : REd hat latest version
+-Red hat enterprise : commercial
+CentOS, Debian...
 
 ## Linux Architecture 
 
