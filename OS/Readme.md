@@ -1,6 +1,7 @@
 
 
-#####Operating System
+#Operating System
+
 ##  Day 1
 
 1. Introduction to OS
