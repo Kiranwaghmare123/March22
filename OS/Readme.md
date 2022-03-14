@@ -1,9 +1,6 @@
 
-# Project Title
 
-A brief description of what this project does and who it's for
-
-Operating System
+#####Operating System
 ##  Day 1
 
 1. Introduction to OS
