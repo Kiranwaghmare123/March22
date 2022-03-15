@@ -58,6 +58,8 @@ or
  
  Others (o):for all other user
  
+ ![image](https://user-images.githubusercontent.com/72081819/158365146-f70dce50-3b99-40ea-81a6-423d1a94542e.png)
+
  ---------------------------------------
  Process Management:
  Program:
@@ -73,6 +75,9 @@ or
  -RAM memory for storage
  -required resources memory, cpu, Io devices,...
  
+ ![image](https://user-images.githubusercontent.com/72081819/158364820-7f480319-c2a7-4ab3-aaa8-884b5e6a942f.png)
+
+ 
  Process state:
  -----------------
  1.New: 
@@ -85,6 +90,9 @@ or
 	-Waiting to assigned to a aprocessor.
  5.Terminated:
 	-finished execution
+	
+	![image](https://user-images.githubusercontent.com/72081819/158364919-fe16c9ad-57e9-4f31-ba6f-98901571b1a2.png)
+
  
  Process Control Block:
  -----------------------
@@ -96,6 +104,8 @@ or
  - Accounting information
  -I/O status information
  
+ 
+ 
  Process Scheduling:
  --------------------
  The act of determining which process is in 
@@ -105,6 +115,8 @@ or
  Goal: to keep CPU busy all the time  and 
  to deliver response time for all programs.
  
+ ![image](https://user-images.githubusercontent.com/72081819/158365023-dbade61b-e9e9-4104-92a1-1b588724aba2.png)
+
  1.Pre-emptive Process : having a higher priority process
  2.Non-preemptive process : execute by CPU allocation
  
