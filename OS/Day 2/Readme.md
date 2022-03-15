@@ -90,11 +90,10 @@ or
 	-Waiting to assigned to a aprocessor.
  5.Terminated:
 	-finished execution
-	
 	![image](https://user-images.githubusercontent.com/72081819/158365324-d05ac3d1-b7ed-430d-a4f2-9e2ce82ab618.png)
 
 	
-	![image](https://user-images.githubusercontent.com/72081819/158364919-fe16c9ad-57e9-4f31-ba6f-98901571b1a2.png)
+
 
  
  Process Control Block:
