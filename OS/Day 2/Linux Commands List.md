@@ -22,6 +22,8 @@
 - head file – output the first 10 lines of file
 - tail file – output the last 10 lines of file
 - tail -f file – output the contents of file as it grows, starting with the last 10 lines
+
+
 ##Process Management:
 
 - ps – display your currently active processes
@@ -31,27 +33,38 @@
 - bg – lists stopped or background jobs; resume a stopped job in the background
 - fg – brings the most recent job to foreground
 - fg n – brings job n to the foreground
+
+
 ##File Permissions:
 
 - chmod octal file – change the permissions of file to octal, which can be found separately for user, group, and world by adding:
 - 4 – read (r)
 - 2 – write (w)
 - 1 – execute (x)
+
+
 ###Examples:
 
 - chmod 777 – read, write, execute for all
 - chmod 755 – rwx for owner, rx for group and world
+
+
+
 ##SSH:
 
 - ssh user@host – connect to host as user
 - ssh -p port user@host – connect to host on port port as user
 - ssh-copy-id user@host – add your key to host for user to enable a keyed or passwordless login
+
+
 ##Searching:
 
 - grep pattern files – search for pattern in files
 - grep -r pattern dir – search recursively for pattern in dir
 - command | grep pattern – search for pattern in the output of command
 - locate file – find all instances of file
+
+
 ##System Info:
 
 - date – show the current date and time
@@ -69,6 +82,8 @@
 - free – show memory and swap usage
 - whereis app – show possible locations of app
 - which app – show which app will be run by default
+
+
 ##Compression:
 
 - tar cf file.tar files – create a tar named file.tar containing files
@@ -79,6 +94,8 @@
 - tar xjf file.tar.bz2 – extract a tar using Bzip2
 - gzip file – compresses file and renames it to file.gz
 - gzip -d file.gz – decompresses file.gz back to file
+
+
 ##Network:
 
 - ping host – ping host and output results
@@ -87,15 +104,21 @@
 - dig -x host – reverse lookup host
 - wget file – download file
 - wget -c file – continue a stopped download
+
+
 ##Installation:
 
 - dpkg -i pkg.deb – install a package (Debian)
 - rpm -Uvh pkg.rpm – install a package (RPM)
+
+
 ##Install from source:
 
 - ./configure
 - make
 - make install
+
+
 ##Shortcuts:
 
 - Ctrl+C – halts the current command
