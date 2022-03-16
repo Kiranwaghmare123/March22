@@ -4,7 +4,10 @@
 Topics:
 	-Shell Programming
 	-Scheduling Algorithm
-	
+
+![image](https://user-images.githubusercontent.com/72081819/158564949-86528bd4-5ed5-40a2-a946-d2b0c8084ff3.png)
+
+# Variable :
 Variablename = "Value"
 name = "Kiran"
 
