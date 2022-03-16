@@ -164,20 +164,28 @@ done
 HW: Sum of 10 numbers
 
 while ()//true
+
 {
+
 }
 --------
 
 until ()//false
+
 {
+
 }
 
 # Function 
 ---------------------
+
 //function definition
+
 function abc () {
+
 	st
 	st
+	
 }
 
 abc()//function call
