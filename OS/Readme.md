@@ -17,15 +17,17 @@
 
 1. Shell Programming
 
-2. Cpu Scheduling
-
-
 ## Day 4
+
+1. Cpu Scheduling
+
+
+## Day 5
 
 1. Thread & Process
 
 2. Deadlock
 
-## Day 5
+## Day 6
 
 1. Memory Management
