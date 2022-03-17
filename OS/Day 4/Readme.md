@@ -125,3 +125,13 @@ Ques 5:
 --------
 
 A uniprocessor computer system has three processes, which alternate 20ms CPU bursts with 80ms I/O bursts. All the processes were created at nearly the same time. The I/O of all the processes can proceed in parallel. What will be the CPU utilization (over a long period of time) using FCFS and Round Robin (time quantum 10ms) for this system? 
+
+Ques 5:
+--------
+
+![image](https://user-images.githubusercontent.com/72081819/158805858-4a3423f0-c374-443f-a085-5414f4d0146b.png)
+
+Consider the longest remaining time first (LRTF) scheduling algorithm. In LRTF ties are broken by giving priority to the process with the lowest process id. Calculate the average waiting time.
+
+
+
