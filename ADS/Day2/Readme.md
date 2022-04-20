@@ -9,7 +9,7 @@ Searching:
 -----------
 1. Linear search
 
-
+<pre>
 	int lsearch(int a1[],int x)
 	{
 		int n=a1.length;
@@ -24,6 +24,7 @@ Searching:
 	
 	
 	}
+</pre>
 2. Binary search
 
 public static int bsearch(int a1[],int x,int l, int r)
