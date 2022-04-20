@@ -14,35 +14,38 @@ Searching:
 
 Recursion:
 -----------
--Function which calls itself 
-directly or indirectly is called Recursion.
--solves the problem by calling 
-a copy of iteself to work on a smaller problem.
--always ensure that the recursion terminates.
--efficient way of programming.
--Ex: Tower of Hanoi,Tree traversals, DFS,BFS(Graph)
+	-Function which calls itself directly or indirectly is called Recursion.
+	
+	-solves the problem by calling a copy of iteself to work on a smaller problem.
+	
+	-always ensure that the recursion terminates.
+	
+	-efficient way of programming.
+	
+	-Ex: Tower of Hanoi,Tree traversals, DFS,BFS(Graph)
+
 
 Direct Recursion:
 ------------------
-void abc()
-{
-	...
-	....
-	abc();
+	void abc()
+	{
+		...
+		....
+		abc();
 
-}
+	}
 
 Indirect Recursion:
 --------------------
-void xyz()
-{
-	mnp();
-}
+	void xyz()
+	{
+		mnp();
+	}
 
-void mnp()
-{
-	xyz();
-}
+	void mnp()
+	{
+		xyz();
+	}
 
 Programming Questions:
 -----------------------
