@@ -144,6 +144,7 @@ Recursive method:
 	//call
 
 	revcount(head);
+![image](https://user-images.githubusercontent.com/72081819/164763851-e28635b8-017a-4955-af55-c34cde5d23b6.png)
 
 
 Search aparticular node in Linked List:
