@@ -108,3 +108,64 @@ Delete operation.
     
     ![image](https://user-images.githubusercontent.com/72081819/164674811-21657234-88e2-43d4-b456-3f3b45cb2191.png)
 
+Length of Linked List or Count of no of nodes in Linked List:
+-----------------------------------------------------------------
+
+
+	int count()
+	{
+		Node n=head;
+		int count = 0;
+		while(n != null)
+		{
+			count++;
+			n=n.next;
+
+		}
+		return count;
+
+	}
+
+
+Count of no of nodes in Linked List:
+Recursive method:
+------------------------------------
+
+
+	int revcount(Node n)
+	{
+
+	if(n == null)
+		return 0;
+
+	return 1+ revcount(n.next)
+	}
+
+	//call
+
+	revcount(head);
+
+
+Search aparticular node in Linked List:
+-----------------------------------------
+
+
+	search(Node head,int x)
+	{
+		Node n=head;
+		while(n != null)
+		{
+			if(n.data == x)
+				return true;
+			n=n.next;	
+		}
+		return false;
+	}
+
+	//call
+
+	if(l1.search(head, 3))
+		SOP ( "Found!");
+	else
+		SOP ("Not Found!");
+
