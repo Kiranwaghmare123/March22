@@ -45,6 +45,8 @@ Display DLL:
       }
     }
 
+![image](https://user-images.githubusercontent.com/72081819/164894662-4f8b09b6-6e67-4b66-90b3-55733fce580c.png)
+
 
 Alternate way:
 ----------------
@@ -93,6 +95,8 @@ Insertion operation:
 
     }
     
+    ![image](https://user-images.githubusercontent.com/72081819/164894688-4a6c934d-0927-475f-85af-16b9fbc7a852.png)
+
     case 3:
 
     void append(int new_data)
@@ -115,3 +119,5 @@ Insertion operation:
       new_node.prev = n;
 
     }
+
+![image](https://user-images.githubusercontent.com/72081819/164894715-f0518800-683b-428c-b1c6-a4d4802b5581.png)
