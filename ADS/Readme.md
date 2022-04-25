@@ -13,7 +13,7 @@ Day 5 : Linked List
 
 Day 6 : DLL
 
-Day 7 : DLL
+Day 7 : Trees
 
-
+Day 8 : Heap
 
