@@ -5,7 +5,7 @@ Tree:
     -Trees are used in applications in which the relation between data elements needs to be represented in a hierarchy.
     
 ![image](https://user-images.githubusercontent.com/72081819/165331444-76df0ebd-8158-4b34-9ea5-d3b3fb474cc7.png)
-![image](https://user-images.githubusercontent.com/72081819/165332397-bd84a4b8-9641-4925-bc6e-ae624d356a00.png)
+
 
  
     -Each elemet in a tree is refered as node.
@@ -19,6 +19,7 @@ Tree:
     -Level of a node:
     -Depth of a tree:
     -Height of a tree:
+![image](https://user-images.githubusercontent.com/72081819/165332397-bd84a4b8-9641-4925-bc6e-ae624d356a00.png)
 ![image](https://user-images.githubusercontent.com/72081819/165332559-b90dcecd-2352-4ae5-bf41-6144e3162674.png)
 
 Binary Tree:
