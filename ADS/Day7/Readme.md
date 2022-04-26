@@ -9,6 +9,7 @@ Tree Traversal:
 		-Preorder: Root, LC, RC
 		-Inorder: LC, Root, RC
 		-Postorder : LC, RC, Root
+![image](https://user-images.githubusercontent.com/72081819/165291980-a3bae2d9-0df3-41f3-97f6-c0c0e072cb61.png)
 
 Inorder :
 --------------
@@ -59,6 +60,7 @@ Binary search Tree:
   
 	-All the values in the right subtree of a node are greater than the value of the node.
 	
+![image](https://user-images.githubusercontent.com/72081819/165292106-151e43b6-2640-4f51-8250-fccf05f7cb7d.png)
 	
 		
 Insertion:
