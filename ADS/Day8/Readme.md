@@ -133,6 +133,9 @@ Polish Notations:
 	1. Infix Notation: a+b
 	2. Prefix Notation: +ab
 	3. Postfix Notation: ab+
+	
+![image](https://user-images.githubusercontent.com/72081819/165514385-e93a368d-faeb-440d-a7bd-9df5b3e108a0.png)
+
 
 Ex:1:
 ------
@@ -174,6 +177,8 @@ Convert Infix to Postfix Notation using Stack:
 	Ex:1
 	A + ( B * C )
 
+![image](https://user-images.githubusercontent.com/72081819/165514546-57dd2301-2051-447e-bd3a-2ef1e2c83780.png)
+
 	Ex:2	
 	( A + ( B * C ) / ( D - E ) )
 
@@ -193,6 +198,8 @@ Postfix Evalaution:
 --------------------
 	Ex:1
 	3 10 5 + *
+
+![image](https://user-images.githubusercontent.com/72081819/165514664-5acdff17-90da-4421-b4d1-26b4bc846248.png)
 
 	Ex:2
 	7 4 -3 * 1 5 + / *
