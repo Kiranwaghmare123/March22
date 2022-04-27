@@ -117,14 +117,14 @@ Case 4:
 Steps to be followed:
 -----------------------
 
-1. For each character of input string:
-		-if ( => call push operation
-		-if ) => call pop operation
-		  --Check top of stack, if it s '(', pop and move to next character
-      --If it is not '(', return false.
-2.After scanning of entire string, 
-	-check if stack is empty=> return true => "balanced".
-	-check if stack is non empty=> return false => "unbalanced".
+	1. For each character of input string:
+			-if ( => call push operation
+			-if ) => call pop operation
+			  --Check top of stack, if it s '(', pop and move to next character
+	      --If it is not '(', return false.
+	2.After scanning of entire string, 
+		-check if stack is empty=> return true => "balanced".
+		-check if stack is non empty=> return false => "unbalanced".
 
 	
 	
