@@ -127,8 +127,81 @@ Steps to be followed:
 		-check if stack is non empty=> return false => "unbalanced".
 
 	
+Polish Notations:
+-------------------
+
+	1. Infix Notation: a+b
+	2. Prefix Notation: +ab
+	3. Postfix Notation: ab+
+
+Ex:1:
+------
+Conversion of Infix to postfix:
+------------------------------------
+	A+(B/C)-D
+	A+(BC/)-D
+	A(BC/)+)-D
+        A(BC/)+)D-
+
+
+Conversion of Infix to prefix:
+------------------------------------
+	A+(B/C)-D
+	A+(/BC)-D
+	+A(/BC)-D
+	-(+A(/BC))D
+	
+
+Ex:2
+------
+(A+B)/(c-D)	
+	
+	Prefix:		/+AB-CD
+	Postfix:	AB+CD-/
+
+	
+Ex:3
+-----	
+A+B/c-D
 	
 	
+	Prefix:		-+A/BCD
+	Postfix:	ABC/+D-
+
+
+Convert Infix to Postfix Notation using Stack:
+-----------------------------------------------
+	Ex:1
+	A + ( B * C )
+
+	Ex:2	
+	( A + ( B * C ) / ( D - E ) )
+
+	EX:3
+	 (A+(B*C-(D/E)*G)*H)
+
+
+Convert Infix to Prefix Notation using Stack:
+-----------------------------------------------
+	A + ( B * C )
+	a+B*c
+	c*B+a--->ans in Postfix---< reverse
+
+
+
+Postfix Evalaution:
+--------------------
+	Ex:1
+	3 10 5 + *
+
+	Ex:2
+	7 4 -3 * 1 5 + / *
+
+	HW:
+	----
+	Ex:
+	5 3 2 * 8 + *	
+
 	
 	
 	
