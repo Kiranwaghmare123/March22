@@ -17,6 +17,7 @@ Queue:
     -total no  of elements present in Queue:
       -No of element=rear-front+1
 
+![image](https://user-images.githubusercontent.com/72081819/165717239-9ea44837-2ad7-47db-8741-93fff514bd8f.png)
 
 Queue Operations:
 -----------------
@@ -61,6 +62,8 @@ Circulr Queue:
     -Rear fro Deletion operation
     -last element of circular queue is connected to first element of queue.
     
+![image](https://user-images.githubusercontent.com/72081819/165717164-45775397-c5aa-4332-a35e-20f85b9329e2.png)
+
 Circular Queue Operations:
 ---------------------------
     -Enqueue
@@ -95,7 +98,8 @@ Double Ended Queue (Deque):
     2.Output Restricted Deque:
       -Outpu is restricted at a single end but it allows insertion at both the ends.
 
-	
+![image](https://user-images.githubusercontent.com/72081819/165717094-06066177-309b-48df-b915-863b88305acf.png)
+
 Operations on Deque:
 ------------------------
     insertfront():adds an element at the front.
