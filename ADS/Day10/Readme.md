@@ -171,3 +171,91 @@ Bubble Sort:
       }
 
     }
+SELECTION SORT:
+------------------
+    min = 2
+        7  5  4  2
+
+        1 |  5  4  7
+
+        2  4 |   5 7
+
+        2  4  5 |  7
+
+	
+    void selectionsort(int a1[])
+    {
+        int n = a1.length;
+        for(int i=0;i<n-1;i++)
+        {
+            int min=i;
+            for(int j=i+1;j<n;j++)
+            {
+                if(a1[j] < a1[min])
+                    min = j;
+
+                //swapping
+                    int temp = a1[min];
+                    a1[min] = a1[i];
+                    a1[i]=temp;
+            }
+        }
+
+    }
+
+INSERTION SORT:
+---------------
+	|| 4  3  2  10  12  1
+	
+	4 ||  3  2  10  12  1
+	
+	3  4 ||  2  10  12  1
+	
+	2  3  4  || 10  12  1
+
+	2  3  4  10 ||  12  1
+	
+	2  3  4  10 12  ||  1
+	
+	1  2  3  4  10  12  ||
+	
+    void insertionsort(int a1[])	
+    {
+        int n = a1.length;
+        for(int i=1;i<n;i++)
+        {
+            int k = a1[i];
+            int j = i-1;
+
+            while(j>=0 && a[j]>k)
+            {
+                a1[j+1]=a1[j];
+                j=j-1;
+
+            }
+            a1[j+1]=k;
+        }
+    }
+
+
+    //Best case
+    |1 2 3 4 5
+    1| 2 3 4 5
+    1 2 | 3 4 5
+    1 2 3 | 4 5 
+    1 2 3 4 | 5
+    1 2 3 4 5 |
+
+
+
+
+Divide and Conquer Algorithm:
+------------------------------
+-i/p size --->large  then lot of time execute 
+-purpose: tohandle the worst case running algorithms ---> O(n^2)
+-Ex: Merge Sort, Quick Sort
+
+
+![image](https://user-images.githubusercontent.com/72081819/165969316-f36e7be5-613b-4d9e-9a32-c2b30cedba3d.png)
+
+![image](https://user-images.githubusercontent.com/72081819/165969631-d06685d2-b14c-4955-a417-082404bfa734.png)
