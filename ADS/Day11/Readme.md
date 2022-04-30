@@ -234,7 +234,7 @@ Types of Hashing:
 
 Hash function:
 
-    h(x)= x % i^2= x%20=
+    h(x)= x % 10
     h(8)= 8%10 = 8
 
 	
