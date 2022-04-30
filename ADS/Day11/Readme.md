@@ -68,7 +68,9 @@ Merge Sort:
 
      B: 5 9 14 17 31 35 65 78  89 92
 
-     C:	2 5	6 9  9 14 15 17 20 24 27 31 35 65 78  89 92
+     C:	2 5 6 9  9 14 15 17 20 24 27 31 35 65 78  89 92
+     
+     
  
  Quick sort:
  -----------
@@ -91,6 +93,9 @@ Example:
 
       6  5  8  9 3 10  15 12 16
   
+  ![image](https://user-images.githubusercontent.com/72081819/166105263-c1031e2f-1c60-4ffb-bb81-0ef6c4eb7175.png
+  
+
  Quick Sort:
  ---------------
      void  Quicksort(int a1[],int low, int high)
@@ -149,6 +154,8 @@ Max-Heap:
 Insertion operation:
 Deletion :Root node
 --------------------
+
+![image](https://user-images.githubusercontent.com/72081819/166105305-bdd5b82a-90fe-422d-b7b6-e7163a38d5df.png)
 
 
 Min-Heap:
@@ -212,6 +219,9 @@ Hashing:
       -return us an address of that location.
       -hash tables.
 	
+![image](https://user-images.githubusercontent.com/72081819/166105285-3f43d733-b93d-45a2-aab2-5a50f9964803.png)
+
+
 Types of Hashing:
 ---------------------
     1. Open Hashing
