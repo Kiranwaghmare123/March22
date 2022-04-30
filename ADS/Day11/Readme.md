@@ -78,6 +78,7 @@ Merge Sort:
      80 90 30 50 70 10
 
      10 205 305 401 50
+![image](https://user-images.githubusercontent.com/72081819/166105392-531dd0a3-007a-441f-8a43-e32dfd8b385b.png)
 
  
 Example: 
@@ -92,8 +93,7 @@ Example:
 
       6  5  8  9 3 10  15 12 16
   
-![image](https://user-images.githubusercontent.com/72081819/166105263-c1031e2f-1c60-4ffb-bb81-0ef6c4eb7175.png
-  
+ 
 
  Quick Sort:
  ---------------
