@@ -90,10 +90,9 @@ Example:
 
       10 5 8 9 3 6 15  12 16  #
 
-
       6  5  8  9 3 10  15 12 16
   
-  ![image](https://user-images.githubusercontent.com/72081819/166105263-c1031e2f-1c60-4ffb-bb81-0ef6c4eb7175.png
+![image](https://user-images.githubusercontent.com/72081819/166105263-c1031e2f-1c60-4ffb-bb81-0ef6c4eb7175.png
   
 
  Quick Sort:
