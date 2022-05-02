@@ -9,13 +9,13 @@ Day 3 : Recursion
 
 Day 4 : Linked List
 
-Day 5 : Linked List
+Day 5 : Doubly Linked List
 
-Day 6 : DLL
+Day 6 : Trees
 
-Day 7 : Trees
+Day 7 : Stack
 
-Day 8 : Binary Search Tree
+Day 8 : Queue
 
 Day 9 : Sorting
 
