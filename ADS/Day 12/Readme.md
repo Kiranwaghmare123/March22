@@ -121,4 +121,5 @@ Tree Application:
  
  Create AVL Tree: 40 ,20, 10,25,30, 22, 50
  
- 
+ ![image](https://user-images.githubusercontent.com/72081819/166264235-6992a292-fd8d-4079-9e11-5c8c311e23f0.png)
+
