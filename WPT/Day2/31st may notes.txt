@@ -1,0 +1,414 @@
+yesterday summary
+1. concept is important, syntax will come..
+example.
+
+web .. we should think in terms of http.
+we should have clarity where the request starts and how the response comes.
+server side component and client side component.
+presentation layer .. --no 1 thing do you know which service function we plan to call.
+what does presenttion layer.. do concept..
+
+1. takes whatever is needed as input for the service layer.
+2. calls the service layer depending on mood ( events
+3. update the ui based on whatservice layer is telling.
+web based presenation
+1. html is a light topic.. we can learn it properly not a big deal
+2. css is a ocean
+3. javascript is another ocean
+2 and 3 being good at is not possible so be ok with 2 and decent with 3.
+
+whatever technology we use , do we have the habit of going
+
+from architecture to code and not vice versa..
+
+html is a presentation layer technology in web applications.
+
+we can use web applications but not for presentation ( web services)
+web service are we using http answer is yes, but will i see html or css answer is no.
+that means still web but not for presentation.
+
+
+
+
+basics.
+1.when you define a function, think first who is going to call it
+1.1 system
+1.2 fellow programmers.
+2 calling a function 
+ok do we have the decency of looking at documentation.
+looking at doucmentation does not mean doing phd, simple things.
+
+what does input indicate.
+what does it return
+how do i know function failed or function suceeded.
+
+as of now what is our job...
+1. learn to use html and javascript togethr with a little bit of css.
+
+how to use html, javascript, css together.. we have to do it in multiple iterations.
+
+html.
+1.decides the structure of the web page.
+we want a hyperlink we need to use html and we cannot do it by using css
+or javascript.
+
+any technical statement should be followed with by saying "for example" 
+
+syntax.
+html consists of tags which the browser knows what to do... our job
+is to use those tags..
+
+example body, tag head. form, input...these tags we are not showing
+creativity we are using the tags which browser already knows.
+
+we can run behind syntax but do we know concepts..biggest challenge in
+web based presentation, browser has got moods..x feature works in chrome
+does not work in ie.. or works in firefox does not work in safari.. these kind
+of problems we should think from day 1.. duplicate submision..
+for doing anything in html, it is learning a new tag..
+
+I see a tag called X, what does it, try doing a small program that 's all
+
+when we want to learn any technology be willing to open other people code..
+
+our code is only 3: other people code is 7 that is way we learn technology
+
+NO i will write my own code. ok.. learning will very poor.. why.. we are learning
+how can we be benchmarks in learning anything..
+
+open other code to judge whether we know technology, oh I am not able to understand
+ok, no big deal it is fine.. programmer who tells every program mine should work
+will be a bad programmer becuase in real life all programs need not work. we have
+to think what ot change...
+we can open other person code, provided we "lower the cost of failure"
+projects dont suceed or dont fail becuae of a programmer. becuase it is a system..
+
+
+programmers who dont open other person code are already they are useless in a project.
+
+I am learning html (ok ghost speaking) 
+ghost has to learn lot of new tags..
+how to crate a slider in html... ok find out how to crate a slider in html
+
+
+basic rule in science
+hell or heaven does not matter prove its repetability..
+
+ok we have html fine. but with that alone nothing works we have to think of using
+css and javascript also to be real...
+
+web presentations we have to be  4/5 in html and 3/5 in javascript atleast 1 or 1.5/5 in
+css..
+
+in html what is important , apart from the tags, do we know which part of the
+page will change, or we will read from.. that is important such parts of the page
+should be marked with an attribute called "Id" this is concept , syntax will come later on.
+
+today important point, do we know where to give id in html page. this is not
+a technical skill it depends on what is problem you are trying to solve.
+
+what is common thing between stupid programmer and intelligent programmer
+common thing is bother thier programs work..
+
+
+stupid programmer tells thank god /devil it works..
+intelligence programmer 90% can justify why he wrote the code and why it works..
+
+javascript
+
+1. basic decancy is to recognize it is a new langauge which we dont know...
+what do we do in javascript most of times..
+
+1. answer is access sections of the html page during events.
+2. do some logic in the funtion itself or contact the server..and server do the logic..
+3. based on what logic told update sections of the html page..
+
+important word is event..
+
+event -- some varible changes in place X and in place Y you to have inform
+that hey Y in X changes have happened ( "event is occuring")
+
+we have two places A and B
+in A there is a variable called i. 
+when this variable i changes in place A, B has to informed why B has registered
+with A saying let me know when i changes.
+
+
+in event handling we should 5/5 to be in real life project
+no I am 4.9/5 ok we are useless in the project.
+5/5 is a must.. 
+
+
+explain javascript in two words.  ==Event handling..
+
+
+Event source. usually we are not this.
+
+1. something changes  some variable.
+2. some condition is put on event listener.
+3 once event listener agrees , then registration for event can take place.
+4. when event occurs, all people registered will be intimated for the event.
+
+Event LIstener do. (most of tiems we are here)
+1. agree to gun shown by event source how.
+he will define a function which event source expects.. no creativity
+in input or output.. ie input and output is controlled by event source..
+2. register for the event by calling some function of the Event Source.
+
+
+registering for the event != event occuring
+
+
+
+
+
+
+most of times we will writing functions in javascript.
+
+when we write functions in javascript
+we should be 100% conscious whthr the function we wrote is
+
+
+1. event handling function
+2. is our logic function
+how do we know whether it is event driven or logic  answer is
+it is our function we will be calling it
+it is event handling function, our job will only to define the function 
+and calling will be done by the system..
+
+public void run()
+{
+
+}
+
+run(); //this is calling you will never see this in your threading code..
+
+
+
+
+
+
+what do you know about javascript
+
+1. when i write a function, i will always think is this a event handling function
+or this is a logic function..
+
+event handling 99% we are event listeners. we do two things.
+
+1. agree with the gun -- write a function that javscript expects from us..
+2. register for the event.
+3. inside the function which we wrote in 1, write what logic we want to do
+when the event occurs.
+crazy syntax in javascript that looks like calling but it is not calling
+it is actually assigning..
+
+<input type="button" id="b1" value="show Hello"
+onClick="whocares()"/>  -- registering for the event
+
+how to read this line...
+when onClick event occur then teh function whocares should be called
+by the system.
+
+just becuase we wrote like this in "whocares()" does not mean we are calling
+the function now..
+
+
+<input type="button" id="b1" value="show Hello"
+onClick="whocares()"/>
+we are creating a button with id b1 and we are registering for the event onCllick
+onClick happens or is detected by system, then system will call the function
+whocares.
+
+
+registering for the event !=  time will pass + event occuring  == event handling will get called.
+
+
+we register for events in javascript.
+what is most important is "there are so many opinions on how to register"
+we should not care for any of the opinion and just relax.. why, it is an opinion..
+
+some english cousin will come and tell this is not good.. we should
+use modern javascript.. what do you mean "modern" he will show new syntax..
+hey relax for sometime.. why..
+
+you can learn "modern" but then react has a got new meaning for modern
+angular has got a new meaning for modern, jquery has got now meaning for modern..
+hey boss relax.. let me see how i am using javascript..
+
+100% in projects we will use javascript with frameworks only.
+only raw javascript nobody uses it..
+in real life first use telescope and then we can use micrscope
+no I will use microscope from day 1 ok, be super busy with zero relavance..
+
+when you call the function make it a point to read the doucmentation
+first.. kids will scream if we do this we will useless in a project
+we have so many functions how to do this.. relax shakespeare for sometime...
+in project you wont have so many functions it will some 10 to 16 functions
+which are repeatedly used...
+
+
+when we see new functions and our bp raises, that is  sign we are in trouble.
+projects will have many new functions why should bp raise, if the function is not
+known write a small program and check what that function does.. and not bp raises..
+
+easy to trust wrong astrologers than read official documentation..
+
+
+a programmer who is trying out a new syntax should be ok if progrm does
+not work.. why. first foremost this is not any project code..
+
+thought process. people who cannot lower the cost of failure will always
+be a bad programer.. programmer should be ok if program fails...programmer 
+should never agree when any manager tells becuase of you project suceeded
+or becuase of you project failed..
+
+
+we have to register for the event and not get "Carried" away by the syntax
+becuase syntax will change depending on the framework we use..
+
+
+whatever framework we use it does not matter.
+
+if we are event listener.
+1. our job is only to define a function and not call it.
+2. register for the event.
+
+
+learn a simple theory that anything written globallly let it be function
+let it it be a variable is a sign that person is stupid in javascript.
+
+global function.. function which is presnt in the script outside all functions.
+globla variable --variable outside functions..
+
+
+in javascript how to write a button when you click on the button
+then a fucnton should get called, it should print some console.log ("ok button clicked");
+
+
+developer tools is used only developers is a myth.. end customers can also use it
+and screw up the web page..
+
+rule no in javascript good mood or bad mood never write global functions
+ie funtions which are outside functions and never use global variables
+in case you use make it const.
+
+
+moral of the story is like this.
+
+1. different syntaxes for registering for the event..
+onClick, addEventLIstener., .. (framework opinion) who cares ... what we should
+do once we decide ok we are going to use react, then learn react way of registering
+for the event, no I am using angular ok learn angular way of registering of event
+concept will be same.. we define the function we dont call it, but syntax will
+be different..
+
+2.global functions, global variables, will create a misery avoid it.. how..
+
+
+Click event.. ok 
+onChange .. ok
+all these names look simple..
+
+hey browser after you processed all the tags in the html page let me know..
+
+
+
+framework has an opinon on how to do things.
+it will give some ready functions and ready made data types.
+
+
+if you define the function, think who is calling it
+if you are calling the function, open the documentation and read it.
+
+people who tell Until i write more programs I wont understand .. are secretly
+tellng they dont want to respect theory..
+figure out how to learn maximum concepts by writing less code and not more code.
+demonstrate all concepts in java till exception handling by writing less code..
+
+event handling functions which are defined by the event listener are called
+by whom, person or the system... system..  when ever system is going to call it
+in javascript we can write the functions by using anonymous functions ie functions
+without name.
+
+
+window.addEventListener('DOMContentLoaded'
+when on the window object. I want to listen for the event DomContentLoaded 
+when that event occurs, call the function i have passed as a second argument)
+
+kids favourite events are onClick, onfocus,onChage... 
+
+adutsl favourite events are DomContentLoaded. onLoad event on window..
+why this interesting becua this tells whole page is loaded. once it is loaded
+we now access any section of the html page..
+
+no matter whatever happens dont write global functions or global variables.
+
+syntax is a function of time, if we have used the syntax only once and think
+we remember the syntax, too much of "hope"
+
+
+worst thing for programmer is "hoping it works" , dont.. 
+check output frequently...
+
+
+
+hopefully all of you know how to setup event for a button in a non global way
+by using DOMContentLoaded event on Window .
+
+kids like tests.
+adults know how to do self test on anything learnt.
+
+in javascript key test is do we know how to setup events.
+what are all the events, that you learn it on need basis and in the beginning
+learn some simple events..
+
+data types in javascript.
+javascript has data types and it tells you dont need to tell me I will judge
+when we do operation.
+
+datatype =content  + operations
+
+int  i ='3'; // 3 is content ok operations is hte boss
+int j = i *4;
+String y= "Hello"-"Hell"; minus operation is not defined on string..
+
+
+let x =3;//this is javasript
+let y = x-2;
+console.log(y);
+what will y print.. 1 that is proof javacript knew that x is a number.
+	
+
+so what is m oral of the story.
+1. practice some html ok
+2. keep your focus on javascript
+3. read the tutorial i get bored ok take pain killers in form of programs word documents.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
