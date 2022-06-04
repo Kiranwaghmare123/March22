@@ -1,0 +1,397 @@
+1. if you are not understanding 
+
+appraoch to mix html, javascript and css and learn not learn it separately.
+
+what you should know in terms of concept
+1. http protocol means web.
+file:///D:/$$dacmumbai/30.05.2022/programs/a01basicsweb.html
+2. http request and response.
+3. server side component, clietn side component
+4. we have lot of issues in web applications presentation which
+we should attack early...
+
+which browsers are you targetting.
+back button.
+duplicate submission
+refresh..
+
+start reading this.
+html tutorial from mozilla.
+javascript early..
+
+what is html.
+presentation technology, used to structure a web page.
+for example..
+hyperlink..
+
+
+what you should know in terms of syntax.
+
+hello world html..
+
+
+
+
+standard kids problem in coding..
+
+1. if facaulty shows a program with syntax X or Y.
+2. kid will write program with syntax X or Y, new syntax called Z
+comes kid will cry, 
+
+kid will write program only changing variablenames..
+people who cannot tolerate uncertainty cannot be programmers.
+
+millions of programmers have prayed that they should
+be "prepared"for the project, still now thier prayer has neverbeen aswnered.
+
+
+
+
+
+
+
+we will make a list of what are the commonly used
+syntaxes in html
+syntaxes in javascript
+syntaxes used in css.
+
+I want to learn html ... we learn some tags.
+which tags we should learn...we will learn form tags first..
+why form tags and not other tags answer is i want you to use
+html along with javascript quickly.
+
+how do you create a textbox in html.
+<input type="text"  id="" />
+this called "new" usually means new syntax most of times..
+
+
+in html , try to focus on creating the ui components.
+without a form.
+
+Javascript what most important thing we discussed.
+
+Event Handling that is theory.
+1. Event Source
+2. Event Listener.
+basic about function
+
+1. defining a function
+most important concept -- who is going to call it.
+
+2. calling a function
+open documentation..
+
+we have to mix html  + javascript = most common way to mix
+is by using event handling.
+
+what does it mean in coding
+in the html page , we will write a syntax telling the system
+
+
+hey system for this event = call this function which I have written.
+registering for the event.
+
+
+I dont want to take login, register. add item to shop.. all these
+programs while learning syntax.. stay away from logic building until
+we know
+
+1. concept
+2. can give an example
+3. hello world program to show we are familiar wiht syntax.
+4. best practices.
+5. logic building.
+
+
+syntax for doing event hanlding you have many ways.
+1. old way  -- onClick next to the textbox
+2. so called new way.  -- addEventListener
+3. opinion 1 way  --react
+4. opinion 2 way  --jquery
+syntax is not same. so why byheart learn all the 4 things.
+and once project we are uisng 4. ok i will learn jquery way
+of setting up events..
+
+
+
+
+
+
+learning javascript.
+
+1.do we know how to write console.log ( yes .)
+2. do we  know variables 
+varibles super big problem is "kids addiction to int variable" always
+in real life we have objects ( composite type)
+
+multiple information is logically related to the same entity.
+Rectangle ( length and breadth)
+projects will always project specific data type..
+you will have classes which have non static variables
+non static variablenames are decided by your project
+example
+Employee class, within employee class what empno, empname
+,email
+why Employee class.. project tells me
+why only empno, empname and email and why not mobile
+project tells me...
+
+
+1. event handling syntax can change.
+2. need for being comfortable with projet specific type
+or a datastructure or a primitive type.
+for function input or output.
+
+if you want to avoid global functions, we have no choice
+other than registering for the event.
+
+which event..domcontentloaded, what is this event
+browser is telling hey i finished interpreting all the tags in
+the web page.
+we have to use javascript object called window.
+
+in every programming langauge you will have non primitive
+data types also .
+in javascript one non primitive variable is document.
+onea nother variable is window.
+terminology we use in javsacript is javascript has got lot of inbuilt objects.
+like window, document, navigator.....
+
+
+
+
+
+
+
+window.
+addEventListener('DOMContentLoaded',
+()=>{
+console.log("f1 function called without global")
+}
+);
+what is DOMContentLoaded.. name of the event.
+what is DOM word here.. html document has got tags..
+that is Document Object Model..--Hierarchial model.
+html tag we have a heaad, body
+under body tag we have input tag.. that all the tags
+are arranged in memory in a hierrachy. that hierarchy
+is called Document object Model.
+
+
+
+hello world javascript hopefully all your know..
+hello world event hanlding.. ok program we wrote now
+is hello world event handling only. show me smaller program
+no not possible this is smallest program why.. no global variables
+no global functions.
+
+
+write two hello world programs in javascript
+1. console.log just to show script works.
+2. how to setup events in javascript.
+
+
+whenever you see a function not having a name be sure
+it is a event handling function only..
+
+if we want to call the function in java or javscript
+what we should know.. first--- you must know functinname.
+
+we are calling the function means we know the functionname.
+only when system is calling the function, in javascript 
+it need not know the function name, this is very old story
+but kids will have skipped the topic in that old story hence
+they are finding it new..
+
+
+
+
+
+
+let us make a rule
+if we want to setup any event.. first thing we will do
+setup the domcontentloaded event on window and only then
+think of other events.
+
+show me how to setup event for a button.
+when we have something in html we should identify it. 
+how to identify it. usually common way is by giving an id.
+
+we will take a break till 4.00PM and join back..
+
+
+
+this is way we will appraoch javascript
+
+1. learn basic variable and basic function
+2. learn event handling
+3. basic ui in html
+4. with 1, 2,3 learn more concept in javascript
+
+once we have done the basic event handling
+we want to do event handling on some ui component let us say
+textbox or radio button or drop down.. first thing give an id for it.
+
+we have category in variable creation like var, const, let.. for local variables
+we will prefer to use let, if we want constants then we will prefer const
+var we will stay away from it as of now..
+
+
+
+
+const b1 = document.querySelector("#b1");
+querySelector is a function of the document object.
+what does it do, we are telling thru the function hey locate the element with the 
+id b1. 
+why is called query selector, in the " " we can ask it to select by tagname or other
+things ... we will see later on.. currently what we did is given an id and ask it select
+that element.. why we want to setup event on that element...
+javascript is not java.. first thing which we need to get comfortable without
+"bp issues" is
+function within function function within function...
+we should be ok with it..
+
+
+challenge in javascript.. is very simple challenge in java .. is realtively easier. why
+
+
+in java if we write
+
+A obj =new B();
+what can be A? class or interface.
+
+what is type of reference , it is A
+what is type of Object, it is B.
+a java programmer should 100% know
+what type of reference he has got and what type of Object he has got.
+
+
+
+let const or var, so as a programmer we should know the data type of the
+variable we are pointing to. why.. only then we can use the correct operation.
+
+in javascript be fully conscious what type of object or data type are we holding..
+different objects have different properties.
+
+List l =new ArrayList();
+l.add("hello");
+
+Map<STring,STring> m =new HashMap();
+m.put("key","value");
+
+what is this in javascript.
+radio button will have different properties
+textbox will have different properties.
+so if we dont know whether we have a radio button with us or a textbox with
+us while using javascript. we can mess up big time..
+
+Challenge is "being conscious"
+
+
+let y  = WhoCares.getMeList();
+
+
+in javascript learning
+1. ok we know console.log
+2. we know how to create one simple variable and function.. 
+3. we know setup event handling, function within function.. ok we are normal.
+anonymous functions ok we are normal with it.
+4. "fully conscious" of what is type of object we have in our variable.
+not clever ok but consciousness must in javascript.
+
+
+programmers should be capable of taking english and converting into code.
+he is telling after the button is clicked.
+read the textbox value
+and print the 5 multiple of that number entered in the textbox.
+there is a tag in html called <span> this is good to identify texts which
+should not come in new line.
+
+
+
+
+how to read a textbox value during some event..
+
+1. get access to that textbox.
+2. use .value on that object.
+
+let x = document.querySelector("#t1");
+console.log(x.value);
+
+
+dont do the logic along with the ui.
+keep the ui chanign function separate from the logic function..
+
+innerHTML is a property of HTML elements which will give us contents of the tag.
+
+<P> hi </P>
+first thing to judge is <P> is a html element and not a form element.
+
+for all these kind of elements how to ead its content by using a property called
+innerHTML.
+
+
+standard kids disease.
+
+1. first define the function and then think where to call it...
+
+in real life as far as programmer called functions
+in every tool , if we call the function, the tool we define the function for us
+and we can fill up the function defintion.
+
+
+
+
+
+
+
+
+words and its meaning.
+1. variable.  --super set word   --science
+2. primtiive variable.  -- one subset -- physics
+3. non primitie variable  --another subset 
+3.1reference
+3.2object.
+
+why we should know primitive and non primitive types, what is your answer.
+during assingment their behaviour changes.
+int i =3;
+int j =4;
+j = i;
+j =5;
+print i;
+
+
+
+Rct r =new Rct();
+r.setLength(4);
+r.setBredth(5);
+Rct r1 = r; //two references one object
+r1.setLength(1);
+r1.setBreadth(2);
+sysout(r.getLength());
+
+let x =3;//primitive
+let y =x;
+y =4;
+console.log(x);
+
+let x=[];//array in javascript
+let y=x;
+y[0]=3;
+console.log(x[0]);//it will print  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
