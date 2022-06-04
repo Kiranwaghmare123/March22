@@ -1,0 +1,43 @@
+<html>
+<head>
+<title> this is title of web page</title>
+<script>
+
+
+//registering for the event
+window.
+addEventListener('DOMContentLoaded',
+()=>{
+
+
+//got access the button in the page
+const b1 = document.querySelector("#b1");// access the b1 button.
+b1.addEventListener('click',
+()=>{
+ const t2 = document.querySelector("#t1");
+ const msg = document.querySelector("#msg");
+ let result = fifthMultile(t2.value); 
+ msg.innerHTML="result is" + result;
+
+});
+console.log("f1 function called without global")
+
+function fifthMultile(x)
+{
+return x * 5;
+}
+
+}
+);
+
+
+</script>
+<style>
+</style>
+</head>
+<body>
+<p> this is hello .html</p>
+<input type="text" id="t1"/>  <span id="msg">x </span>
+<Br/><input type="button" id="b1" value="5th multiple"/>
+</body>
+</html>

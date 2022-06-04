@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> this is title of web page</title>
+<script>
+
+
+//registering for the event
+window.
+addEventListener('DOMContentLoaded',
+()=>{
+
+
+//got access the button in the page
+const b1 = document.querySelector("#b1");// access the b1 button.
+b1.addEventListener('click',
+()=>{
+ const t2 = document.querySelector("#t1");
+ const msg = document.querySelector("#msg");
+ 
+console.log('button is clicked'  + msg.innerHTML);
+
+});
+console.log("f1 function called without global")
+}
+);
+
+
+</script>
+<style>
+</style>
+</head>
+<body>
+<p> this is hello .html</p>
+<input type="text" id="t1"/>  <h1 id="msg">x </h1>
+<Br/><input type="button" id="b1" value="5th multiple"/>
+</body>
+</html>
